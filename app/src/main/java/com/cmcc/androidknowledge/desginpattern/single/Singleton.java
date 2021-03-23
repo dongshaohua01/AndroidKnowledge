@@ -1,4 +1,4 @@
-package com.cmcc.androidknowledge.desginpattern;
+package com.cmcc.androidknowledge.desginpattern.single;
 
 /**
  * 懒汉模式

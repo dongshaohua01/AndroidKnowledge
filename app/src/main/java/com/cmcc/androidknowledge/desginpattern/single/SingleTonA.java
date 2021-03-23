@@ -1,4 +1,4 @@
-package com.cmcc.androidknowledge.desginpattern;
+package com.cmcc.androidknowledge.desginpattern.single;
 
 /**
  * 双重检查模式(DCL)

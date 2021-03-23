@@ -1,4 +1,4 @@
-package com.cmcc.androidknowledge.desginpattern;
+package com.cmcc.androidknowledge.desginpattern.single;
 
 /**
  * 静态内部类单例模式

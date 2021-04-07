@@ -1,1 +1,2 @@
+include ':compiler'
 include ':app'

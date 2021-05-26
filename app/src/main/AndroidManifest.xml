@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        <activity android:name=".annotations.AnnotationTwoActivity"></activity>
         <activity android:name=".annotations.AnnotationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,19 +19,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BActivity">
-
-        </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".BActivity"></activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".webview.WebViewActivity" />
 
         <service
             android:name=".aidl.RemoteService"
             android:process=":remote" />
     </application>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 </manifest>
